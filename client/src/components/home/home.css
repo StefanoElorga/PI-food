@@ -1,0 +1,93 @@
+.body {
+  background-color: rgba(207, 16, 121, 0.74);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.buttons {
+  background-color: rgba(255, 255, 255, 0.445);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  display: inline-flex;
+  width: 60px;
+  height: 40px;
+  font-size: 10px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s ease all;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  font-style: italic;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.buttons span {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s ease all;
+}
+
+.buttons::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 192, 203, 0.733);
+  position: absolute;
+  z-index: 1;
+  top: -80px;
+  left: 0;
+  transition: 0.5s ease-in-out all;
+}
+
+.buttons:hover::after {
+  top: 0;
+}
+
+.titulo {
+  font-family: cursive;
+  font-size: 60px;
+  margin-top: 10px;
+  color: white;
+  text-shadow: black 3px 3px 3px;
+  font-style: italic;
+}
+
+/* .selectores {
+} */
+
+.selector {
+  margin-right: 15px;
+  color: black;
+  font-size: 16px;
+  background-color: rgb(253, 173, 185);
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+.selector:hover {
+  cursor: pointer;
+  background-color: rgb(206, 122, 134);
+  text-shadow: white 2px 2px 2px;
+}
+
+.cartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin: 20px;
+}

@@ -1,0 +1,144 @@
+.body-create {
+  /* background-image: url(https://www.hola.com/imagenes/decoracion/20210412186864/ideas-decoracion-cocinas-pequenas-am/0-943-608/cocinaikea-t.jpg); */
+  background-color: rgba(207, 16, 121, 0.74);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.title-create {
+  color: white;
+  text-shadow: black 3px 3px 3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.input-create {
+  width: 60%;
+  height: 10%;
+  padding: 0 20px;
+  font-size: 15px;
+  color: black;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.textarea-create {
+  background-color: white;
+  color: black;
+}
+.checks-create {
+  background-color: yellow;
+  display: flex;
+}
+
+.titulo-input {
+  display: flex;
+  margin-right: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.form-all {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-create {
+  background-color: rgba(255, 255, 255, 0.445);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  display: inline-flex;
+  width: 200px;
+  height: 80px;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s ease all;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  font-style: italic;
+}
+
+.button-create span {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s ease all;
+}
+
+.button-create::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(26, 247, 5, 0.733);
+  position: absolute;
+  z-index: 1;
+  top: -80px;
+  left: 0;
+  transition: 0.5s ease-in-out all;
+}
+
+.button-create:hover::after {
+  top: 0;
+}
+
+.button-volver {
+  background-color: rgba(255, 255, 255, 0.445);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: black 2px 2px 2px;
+  display: inline-flex;
+  width: 150px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s ease all;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  font-style: italic;
+}
+
+.button-volver span {
+  position: relative;
+  z-index: 2;
+  transition: 0.5s ease all;
+}
+
+.button-volver::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(252, 4, 46, 0.733);
+  position: absolute;
+  z-index: 1;
+  top: -80px;
+  left: 0;
+  transition: 0.5s ease-in-out all;
+}
+
+.button-volver:hover::after {
+  top: 0;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.error {
+  background-color: red;
+  margin-right: 50px;
+  margin-left: 50px;
+}

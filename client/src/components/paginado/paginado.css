@@ -1,0 +1,22 @@
+.number {
+  background-color: white;
+  border: solid 1px black;
+  display: flex;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.number:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: 0.3s;
+  background-color: rgba(255, 192, 203, 0.733);
+}
+
+.numberOrder {
+  display: flex;
+  list-style: none;
+  padding-right: 100px;
+  padding-left: 100px;
+  justify-content: center;
+}
